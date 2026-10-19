@@ -11,6 +11,7 @@ Last updated: October 19, 2026
 - Laptop 1 guidance explains Restart, Hibernate, OneDrive sync, app recovery, and the limits of full shutdown.
 - The package was committed and pushed to GitHub `main`, then verified with a fresh clone on October 19, 2026.
 - A concise resume instruction was saved in the cloud environment configuration draft.
+- The repository now has one canonical `AGENTS.md` and a one-line `CLAUDE.md` compatibility import. Cline/Kilo-specific copies were intentionally omitted to avoid duplicated rules.
 
 ## Still unverified
 

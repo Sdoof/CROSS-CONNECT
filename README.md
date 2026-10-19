@@ -16,6 +16,8 @@ The durable source is the `main` branch of `Sdoof/CROSS-CONNECT` on GitHub. A fr
 
 ## Files
 
+- [Canonical agent instructions](AGENTS.md): shared project rules for Codex and compatible coding agents.
+- [Claude Code adapter](CLAUDE.md): imports the canonical instructions without duplicating them.
 - [Laptop 2 network troubleshooting](docs/Laptop-2-Network-Troubleshooting.md): the confirmed incident and recovery procedure.
 - [Laptop 1 network troubleshooting](docs/Laptop-1-Network-Troubleshooting.md): network procedure plus safe restart, Hibernate, OneDrive, and recovery guidance.
 - [Desktop network troubleshooting](docs/Desktop-Network-Troubleshooting.md): the equivalent Windows desktop network procedure.
@@ -43,5 +45,6 @@ Do not publish screenshots of `ipconfig /all` without reviewing them first; they
 
 - No OneDrive connector is available in this cloud session, so the files cannot be placed in the Windows OneDrive folder directly.
 - A concise cloud resume instruction has been saved in the environment configuration draft. It takes effect for future environments only after the user reviews, saves, and publishes that draft.
+- Claude Code, Kilo Code, Cline, Roo, Cursor, and their global configuration are not installed or mounted in this cloud environment. Project-level `AGENTS.md` is canonical; no global cross-drive synchronization has been performed.
 - Laptop 1 and Desktop require safe, device-level checks before their procedures can be called tested.
 - A full shutdown or forced power-off of Laptop 1 cannot guarantee restoration of unsaved local work. Use Save, completed OneDrive sync, application recovery, and Hibernate for planned pauses.
