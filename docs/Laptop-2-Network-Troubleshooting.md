@@ -40,9 +40,9 @@ If disabling Windscribe's Firewall restores access, go to step 8. If Windscribe 
 
 Uninstalling removes Windscribe's VPN protection. Decide whether to reinstall it after confirming normal connectivity. If turning its Firewall off made no difference, continue the diagnostics before uninstalling other software.
 
-## 3. Check Cold Turkey for website-only blocking
+## 3. Optional: Cold Turkey for website-only blocking
 
-Cold Turkey is relevant when the network tests in step 6 work but a browser or particular websites remain blocked. It would not normally explain a missing adapter, a `169.254` address, or failure to reach the Helix gateway.
+Skip this section for now. Return only when the network tests in step 6 work but a browser or particular websites remain blocked. Cold Turkey would not normally explain a missing adapter, a `169.254` address, or failure to reach the Helix gateway.
 
 1. Open Cold Turkey and look for active website or internet blocks.
 2. Pause unlocked blocks through the application.
@@ -85,11 +85,11 @@ Find the section for the connection being used. Previously, Helix supplied:
 
 These are previous observations, not settings to enter manually. Router configuration can change.
 
-An IPv4 address beginning with 169.254, or a missing gateway, suggests the connection has not obtained the expected settings. Check the cable or reconnect to Wolfky.
+An IPv4 address beginning with 169.254, or a missing gateway, suggests the connection has not obtained the expected settings. Check the cable or reconnect to Wolfky, then run `ipconfig /all` again. If the gateway remains missing, stop before the tests or resets below. Record the adapter and `ipconfig` details and get device-specific help.
 
 ## 6. Test where connectivity stops
 
-Run each command separately. If PowerShell is in text-selection mode, press Esc first.
+Run each command separately. If PowerShell is in text-selection mode, press Esc first. Test one connection at a time: temporarily disconnect Wi-Fi while testing Ethernet, and unplug Ethernet while testing Wi-Fi.
 
 Test Helix (use the current default gateway from ipconfig if it differs):
 

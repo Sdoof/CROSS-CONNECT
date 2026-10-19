@@ -40,9 +40,9 @@ If disabling Windscribe's Firewall restores access, go to step 8. If Windscribe 
 
 Uninstalling removes Windscribe's VPN protection. If turning its Firewall off made no difference, continue the diagnostics before uninstalling other software. If this is a managed work computer, have its administrator handle VPN changes instead.
 
-## 3. Check Cold Turkey for website-only blocking
+## 3. Optional: Cold Turkey for website-only blocking
 
-Cold Turkey is relevant when the raw network tests in step 6 work but a browser or particular websites remain blocked. It would not normally explain a missing adapter, a `169.254` address, or failure to reach the Helix gateway.
+Skip this section for now. Return only when the raw network tests in step 6 work but a browser or particular websites remain blocked. Cold Turkey would not normally explain a missing adapter, a `169.254` address, or failure to reach the Helix gateway.
 
 1. Open Cold Turkey and inspect active website or internet blocks.
 2. Pause unlocked blocks using the application.
@@ -64,7 +64,7 @@ Find the physical Ethernet or Wi-Fi adapter. Its manufacturer and name may diffe
 - Disabled: if you did not intentionally disable it, enable it through Settings → Network & Internet → Advanced network settings, or Control Panel → Network and Sharing Center → Change adapter settings.
 - Missing: open Device Manager → Network adapters and Other devices. Record any warning symbol and the device's Properties → General error code before changing drivers.
 
-Ignore WAN Miniports and virtual adapters for this basic physical-adapter check. If a driver is needed, identify this computer and adapter first and obtain the correct driver from their manufacturer.
+Ignore WAN Miniports and virtual adapters for this basic physical-adapter check. If a physical adapter is missing or has a yellow warning, stop and record its exact Device Manager error code. Get device-specific help before installing, rolling back, or uninstalling any driver. Never use Laptop 2's driver merely because its adapter name looks similar.
 
 ## 5. Check the assigned address
 
