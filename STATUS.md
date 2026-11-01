@@ -12,10 +12,11 @@ Last updated: October 19, 2026
 - The package was committed and pushed to GitHub `main`, then verified with a fresh clone on October 19, 2026.
 - A concise resume instruction was saved in the cloud environment configuration draft.
 - The repository now has one canonical `AGENTS.md` and a one-line `CLAUDE.md` compatibility import. Cline/Kilo-specific copies were intentionally omitted to avoid duplicated rules.
+- The owner supplied Laptop 1 performance output. A local diagnostic handoff is in `docs/Laptop-1-Sluggishness-Handoff.md`; the cause remains undiagnosed.
 
 ## Still unverified
 
-- Laptop 1's exact model, Windows version, adapters, network baseline, Hibernate behavior, and sluggish-performance cause.
+- Laptop 1's adapter/network baseline, Hibernate behavior, and sluggish-performance cause.
 - Desktop's exact model, Windows version, adapters, and network baseline.
 - OneDrive copy and sync. This cloud environment has no OneDrive connector.
 - Publication of the saved environment draft and a later fresh-environment restore check.
@@ -30,7 +31,7 @@ Last updated: October 19, 2026
 
 ## Next action only if requested
 
-- For Laptop 1 sluggishness: collect Task Manager CPU/Memory/Disk use, free storage, Reliability Monitor events, and recent driver/Windows update history, then diagnose separately.
+- For Laptop 1 sluggishness: continue from `docs/Laptop-1-Sluggishness-Handoff.md` using a local assistant with device access; do not ask the owner to repeat the PowerShell collection.
 - To validate Laptop 1 recovery: use a disposable saved OneDrive document, confirm sync, Hibernate, resume, and verify the file. Do not simulate a forced power loss.
 - Before archiving this chat: download the final package to `C:\Users\olivi\OneDrive\Documents\AI STACK` and wait for OneDrive to show **Up to date**.
 - In environment settings: review and save the pending resume instruction, then publish the environment if future cloud restoration is desired.
