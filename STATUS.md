@@ -13,6 +13,7 @@ Last updated: October 19, 2026
 - A concise resume instruction was saved in the cloud environment configuration draft.
 - The repository now has one canonical `AGENTS.md` and a one-line `CLAUDE.md` compatibility import. Cline/Kilo-specific copies were intentionally omitted to avoid duplicated rules.
 - The owner supplied Laptop 1 performance output. A local diagnostic handoff is in `docs/Laptop-1-Sluggishness-Handoff.md`; the cause remains undiagnosed.
+- A copy-and-paste local assistant prompt is in `docs/START-LAPTOP-1-DIAGNOSIS.txt`.
 
 ## Still unverified
 

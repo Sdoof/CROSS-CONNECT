@@ -21,6 +21,7 @@ The durable source is the `main` branch of `Sdoof/CROSS-CONNECT` on GitHub. A fr
 - [Laptop 2 network troubleshooting](docs/Laptop-2-Network-Troubleshooting.md): the confirmed incident and recovery procedure.
 - [Laptop 1 network troubleshooting](docs/Laptop-1-Network-Troubleshooting.md): network procedure plus safe restart, Hibernate, OneDrive, and recovery guidance.
 - [Laptop 1 sluggishness handoff](docs/Laptop-1-Sluggishness-Handoff.md): known readings, prior actions, and a low-interruption plan for a local assistant.
+- [Start the local diagnosis](docs/START-LAPTOP-1-DIAGNOSIS.txt): copy-and-paste instruction for a local assistant with access to Laptop 1.
 - [Desktop network troubleshooting](docs/Desktop-Network-Troubleshooting.md): the equivalent Windows desktop network procedure.
 - [Resume checkpoint](STATUS.md): the file a future Codex session should read first.
 
